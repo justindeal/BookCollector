@@ -52,6 +52,8 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="150" id="6O5-uy-8yD"/>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="280" id="bXv-Ms-dzv"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="150" id="cfo-Oh-U5J"/>
+                                    <constraint firstAttribute="width" constant="280" id="ha0-aw-LTb"/>
                                 </constraints>
                             </imageView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Title of Book" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="KWw-eG-lIv">

@@ -29,6 +29,20 @@ class BookViewController: UIViewController, UIImagePickerControllerDelegate, UIN
         //Pull up another ViewController with the pictures
         present(imagePicker, animated: true, completion: nil)
         
+        //Be sure to go to Info.plist to ensure access to Privacy - Photo Library!
+        
+    }
+    
+    //Add this function to bring selected photo from library back to Image View
+    
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : Any]) {
+        
+        let image = info[UIImagePickerControllerOriginalImage] as! UIImage
+        
+        bookImageView.image = image
+        
+        //Need to dismiss the imagePicker View Controller
+        imagePicker.dismiss(animated: true, completion: nil)
     }
 
   
