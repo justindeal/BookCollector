@@ -61,8 +61,8 @@
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H9j-Dx-4MM">
-                                <rect key="frame" x="164" y="355" width="46" height="30"/>
-                                <state key="normal" title="Button"/>
+                                <rect key="frame" x="172" y="355" width="30" height="30"/>
+                                <state key="normal" title="Add"/>
                                 <connections>
                                     <action selector="addTapped:" destination="GVB-3v-fRx" eventType="touchUpInside" id="MDE-zr-s3T"/>
                                 </connections>
@@ -81,14 +81,20 @@
                     </view>
                     <navigationItem key="navigationItem" id="TGa-A0-DbT">
                         <rightBarButtonItems>
-                            <barButtonItem systemItem="camera" id="Ist-YP-Bk6"/>
-                            <barButtonItem title="Photos" id="DrE-Ag-aAq"/>
+                            <barButtonItem systemItem="camera" id="Ist-YP-Bk6">
+                                <connections>
+                                    <action selector="cameraTapped:" destination="GVB-3v-fRx" id="sck-lj-Byg"/>
+                                </connections>
+                            </barButtonItem>
+                            <barButtonItem title="Photos" id="DrE-Ag-aAq">
+                                <connections>
+                                    <action selector="photosTapped:" destination="GVB-3v-fRx" id="Xc1-hl-4GG"/>
+                                </connections>
+                            </barButtonItem>
                         </rightBarButtonItems>
                     </navigationItem>
                     <connections>
                         <outlet property="bookImageView" destination="Yhz-sV-nU9" id="XtI-nm-bcf"/>
-                        <outlet property="cameraTapped" destination="Ist-YP-Bk6" id="A8j-4p-B3W"/>
-                        <outlet property="photosTapped" destination="DrE-Ag-aAq" id="XLy-hf-guI"/>
                         <outlet property="titleTextField" destination="KWw-eG-lIv" id="6Kh-GV-XlZ"/>
                     </connections>
                 </viewController>

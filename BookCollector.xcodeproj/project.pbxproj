@@ -62,8 +62,8 @@
 			children = (
 				51745AB01EC2F31900B0F3C9 /* AppDelegate.swift */,
 				51745AB21EC2F31900B0F3C9 /* ViewController.swift */,
-				51745AB41EC2F31900B0F3C9 /* Main.storyboard */,
 				51745AC71EC2FAE400B0F3C9 /* BookViewController.swift */,
+				51745AB41EC2F31900B0F3C9 /* Main.storyboard */,
 				51745ABA1EC2F31900B0F3C9 /* Assets.xcassets */,
 				51745ABC1EC2F31900B0F3C9 /* LaunchScreen.storyboard */,
 				51745AC51EC2F92C00B0F3C9 /* DAMN.png */,
@@ -313,6 +313,7 @@
 				51745AC41EC2F31900B0F3C9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

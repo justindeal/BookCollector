@@ -18,9 +18,13 @@ class BookViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-    @IBOutlet weak var photosTapped: UIBarButtonItem!
+    @IBAction func photosTapped(_ sender: Any) {
+    }
+
+  
+    @IBAction func cameraTapped(_ sender: Any) {
+    }
     
-    @IBOutlet weak var cameraTapped: UIBarButtonItem!
     
     @IBAction func addTapped(_ sender: Any) {
     }
